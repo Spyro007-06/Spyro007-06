@@ -15,11 +15,25 @@
 
 <br/>
 
-<!-- Status Indicator -->
+<!-- Status Indicator & Quick Connect -->
 <p align="center">
   <img src="https://img.shields.io/badge/Status-🟢%20Building%20%26%20Shipping-0d1117?style=flat-square&color=00F2FE&labelColor=0d1117" alt="Status" />
   &nbsp;
   <img src="https://img.shields.io/badge/Focus-Indic%20Voice%20%E2%80%A2%20RAG%20%E2%80%A2%20Full%20Stack-0d1117?style=flat-square&color=7F00FF&labelColor=0d1117" alt="Focus" />
+</p>
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/tharun-b-l-143655398">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  &nbsp;
+  <a href="mailto:bltharun9080@gmail.com">
+    <img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <a href="https://github.com/Spyro007-06">
+    <img src="https://img.shields.io/badge/GitHub-Spyro007--06-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
 </div>
@@ -262,24 +276,17 @@ Building... Learning... Shipping... ▊
 
 <div align="center">
 
-<!-- CONTACT LINKS: Replace placeholders with your genuine URLs -->
+<!-- CONTACT LINKS -->
 <a href="https://github.com/Spyro007-06">
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </a>
 &nbsp;
-<!-- REPLACE_WITH_YOUR_LINKEDIN_URL -->
-<a href="https://linkedin.com/in/YOUR_LINKEDIN_URL">
+<a href="https://www.linkedin.com/in/tharun-b-l-143655398">
   <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
-<!-- REPLACE_WITH_YOUR_EMAIL -->
-<a href="mailto:YOUR_EMAIL@example.com">
+<a href="mailto:bltharun9080@gmail.com">
   <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-</a>
-&nbsp;
-<!-- REPLACE_WITH_YOUR_PORTFOLIO_URL -->
-<a href="https://YOUR_PORTFOLIO_URL">
-  <img src="https://img.shields.io/badge/Portfolio-7F00FF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
 </a>
 
 <br/><br/>
