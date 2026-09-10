@@ -17,9 +17,9 @@
 
 <!-- Status Indicator & Quick Connect -->
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-🟢%20Building%20%26%20Shipping-0d1117?style=flat-square&color=00F2FE&labelColor=0d1117" alt="Status" />
+  <img src="https://img.shields.io/badge/Status-Active%20Building-161B22?style=flat-square&logo=git&logoColor=00F2FE&labelColor=0d1117" alt="Status" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Focus-Indic%20Voice%20%E2%80%A2%20RAG%20%E2%80%A2%20Full%20Stack-0d1117?style=flat-square&color=7F00FF&labelColor=0d1117" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-AI%20%7C%20Voice%20%7C%20Full%20Stack-161B22?style=flat-square&logo=codefactor&logoColor=B388FF&labelColor=0d1117" alt="Focus" />
 </p>
 
 <p align="center">
@@ -118,7 +118,7 @@ Building... Learning... Shipping... ▊
         <code>pgvector</code>
       </p>
       <a href="https://github.com/Spyro007-06/Bhoomi">
-        <img src="https://img.shields.io/badge/View_Project_→-00F2FE?style=for-the-badge&logo=github&logoColor=000000" alt="View Bhoomi" />
+        <img src="https://img.shields.io/badge/View_Repository-161B22?style=for-the-badge&logo=github&logoColor=00F2FE" alt="View Bhoomi" />
       </a>
     </td>
   </tr>
@@ -135,7 +135,7 @@ Building... Learning... Shipping... ▊
         <code>Sarvam AI</code>
       </p>
       <a href="https://github.com/Spyro007-06/Voice-enabled-RAG">
-        <img src="https://img.shields.io/badge/View_Project_→-7F00FF?style=for-the-badge&logo=github&logoColor=ffffff" alt="View Voice RAG" />
+        <img src="https://img.shields.io/badge/View_Repository-161B22?style=for-the-badge&logo=github&logoColor=B388FF" alt="View Voice RAG" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -149,7 +149,7 @@ Building... Learning... Shipping... ▊
         <code>Docker</code>
       </p>
       <a href="https://github.com/Spyro007-06/PRYSM---Continuous-AI-Compilance-Operating-System">
-        <img src="https://img.shields.io/badge/View_Project_→-F59E0B?style=for-the-badge&logo=github&logoColor=000000" alt="View PRYSM" />
+        <img src="https://img.shields.io/badge/View_Repository-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View PRYSM" />
       </a>
     </td>
   </tr>
@@ -165,7 +165,7 @@ Building... Learning... Shipping... ▊
         <code>Docker</code>
       </p>
       <a href="https://github.com/Spyro007-06/AHAL-V2">
-        <img src="https://img.shields.io/badge/View_Project_→-10B981?style=for-the-badge&logo=github&logoColor=ffffff" alt="View AHAL V2" />
+        <img src="https://img.shields.io/badge/View_Repository-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View AHAL V2" />
       </a>
     </td>
     <td width="50%" valign="top">
@@ -179,7 +179,7 @@ Building... Learning... Shipping... ▊
         <code>Vercel Blob</code>
       </p>
       <a href="https://github.com/Spyro007-06/HH_Goa_Task_1">
-        <img src="https://img.shields.io/badge/View_Project_→-0070F3?style=for-the-badge&logo=github&logoColor=ffffff" alt="View HH Goa Task 1" />
+        <img src="https://img.shields.io/badge/View_Repository-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" alt="View HH Goa Task 1" />
       </a>
     </td>
   </tr>
@@ -234,16 +234,16 @@ Building... Learning... Shipping... ▊
 <table border="0">
   <tr>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=Spyro007-06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9&icon_color=7f00ff" alt="GitHub Stats" width="400" />
+      <img src="https://github-readme-stats-anuraghazra.vercel.app/api?username=Spyro007-06&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&text_color=FFFFFF&icon_color=00F2FE" alt="GitHub Stats" width="400" />
     </td>
     <td align="center" valign="top">
-      <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=Spyro007-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f2fe&text_color=c9d1d9" alt="Top Languages" width="350" />
+      <img src="https://github-readme-stats-anuraghazra.vercel.app/api/top-langs/?username=Spyro007-06&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00F2FE&text_color=FFFFFF" alt="Top Languages" width="350" />
     </td>
   </tr>
   <tr>
     <td colspan="2" align="center">
       <br/>
-      <img src="https://streak-stats.demolab.com?user=Spyro007-06&theme=tokyonight&hide_border=true&background=0d1117&ring=00f2fe&fire=7f00ff&currStreakLabel=00f2fe" alt="Contribution Streak" width="750" />
+      <img src="https://streak-stats.demolab.com?user=Spyro007-06&theme=tokyonight&hide_border=true&background=0d1117&ring=00F2FE&fire=00F2FE&currStreakLabel=00F2FE&sideNums=FFFFFF&sideLabels=C9D1D9&dates=8B949E" alt="Contribution Streak" width="750" />
     </td>
   </tr>
 </table>
