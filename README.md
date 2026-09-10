@@ -4,7 +4,7 @@
 <!-- HERO: CYBERNETIC COMMAND HEADER                                   -->
 <!-- ================================================================= -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:1E1B4B,60:6D28D9,85:0284C7,100:00F2FE&height=240&section=header&text=THARUN%20B%20L&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%96%B8%20AI%20%2F%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%E2%97%87%20BUILDER%20%E2%97%87%20RESEARCHER%20%E2%97%82&descAlignY=60&descSize=15&descColor=00F2FE" width="100%" alt="Tharun B L Cyber Header" />
+<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:0D1117,25:1E1B4B,60:6D28D9,85:0284C7,100:00F2FE&height=260&section=header&text=THARUN%20B%20L&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%96%B8%20AI%20%2F%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%E2%97%87%20BUILDER%20%E2%97%87%20RESEARCHER%20%E2%97%82&descAlignY=60&descSize=15&descColor=00F2FE" width="100%" alt="Tharun B L Cyber Header" />
 
 <br/>
 
