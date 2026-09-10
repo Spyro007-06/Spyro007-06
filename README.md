@@ -4,7 +4,7 @@
 <!-- HERO: CYBERNETIC COMMAND HEADER                                   -->
 <!-- ================================================================= -->
 
-<img src="https://capsule-render.vercel.app/api?type=cylinder&color=0:050811,35:0d1527,70:1a0b36,100:00F2FE&height=260&section=header&text=THARUN%20B%20L&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%96%B8%20AI%20%2F%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%E2%97%87%20BUILDER%20%E2%97%87%20RESEARCHER%20%E2%97%82&descAlignY=60&descSize=15&descColor=00F2FE" width="100%" alt="Tharun B L Cyber Header" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:1E1B4B,60:6D28D9,85:0284C7,100:00F2FE&height=240&section=header&text=THARUN%20B%20L&fontSize=58&fontColor=ffffff&animation=fadeIn&fontAlignY=36&desc=%E2%96%B8%20AI%20%2F%20FULL-STACK%20SYSTEMS%20ARCHITECT%20%E2%97%87%20BUILDER%20%E2%97%87%20RESEARCHER%20%E2%97%82&descAlignY=60&descSize=15&descColor=00F2FE" width="100%" alt="Tharun B L Cyber Header" />
 
 <br/>
 
@@ -45,7 +45,7 @@
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 01. SYSTEM.INIT()</code></h3>
+  <h3><code>01. SYSTEM.INIT()</code></h3>
 </div>
 
 <table border="0" width="100%" cellspacing="0" cellpadding="0">
@@ -86,7 +86,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 02. DEVELOPER INTEL</code></h3>
+  <h3><code>02. ABOUT ME & CORE FOCUS</code></h3>
 </div>
 
 > **AI and Full-Stack Systems Architect** engineering grounded, high-reliability applications designed for real-world complexity — spanning multilingual Indic Voice RAG, spatial epidemiology engines, AI-powered audit intelligence, and offline-first mobile applications.
@@ -98,7 +98,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 03. ARSENAL & TOOLCHAIN</code></h3>
+  <h3><code>03. TECH ARSENAL & TOOLCHAIN</code></h3>
 </div>
 
 <div align="center">
@@ -158,7 +158,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 04. CLASSIFIED BUILDS & PRODUCTION DOSSIER</code></h3>
+  <h3><code>04. FEATURED PROJECTS & BUILDS</code></h3>
 </div>
 
 <!-- MISSION 01: BHOOMI -->
@@ -316,7 +316,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 05. CHRONOLOGICAL MISSION TIMELINE</code></h3>
+  <h3><code>05. PROJECT TIMELINE</code></h3>
 </div>
 
 ```
@@ -340,7 +340,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 06. HOW I BUILD — THE DATA PIPELINE</code></h3>
+  <h3><code>06. ARCHITECTURE PIPELINE</code></h3>
 </div>
 
 ```
@@ -360,7 +360,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 07. SATELLITE TELEMETRY & METRICS</code></h3>
+  <h3><code>07. GITHUB ANALYTICS & METRICS</code></h3>
 </div>
 
 <div align="center">
@@ -391,7 +391,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 08. CONTRIBUTION MATRIX</code></h3>
+  <h3><code>08. CONTRIBUTION JOURNEY</code></h3>
 </div>
 
 <div align="center">
@@ -409,7 +409,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 09. ACTIVE R&D RADAR</code></h3>
+  <h3><code>09. CURRENTLY EXPLORING</code></h3>
 </div>
 
 ```
@@ -431,7 +431,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 10. OPERATIONAL CREED</code></h3>
+  <h3><code>10. ENGINEERING PHILOSOPHY</code></h3>
 </div>
 
 > **01. Zero Tolerance for Hallucination.**  
@@ -450,7 +450,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <!-- ================================================================= -->
 
 <div align="left">
-  <h3><code>// 11. TRANSMISSION CHANNELS</code></h3>
+  <h3><code>11. CONNECT WITH ME</code></h3>
 </div>
 
 <div align="center">
@@ -481,6 +481,6 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050811,40:0d1527,70:1a0b36,100:00F2FE&height=130&section=footer&text=CODE%20%E2%80%A2%20BUILD%20%E2%80%A2%20LEARN%20%E2%80%A2%20SHIP&fontSize=18&fontColor=ffffff" width="100%" alt="Footer Wave" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,25:1E1B4B,60:6D28D9,85:0284C7,100:00F2FE&height=130&section=footer&text=CODE%20%E2%80%A2%20BUILD%20%E2%80%A2%20LEARN%20%E2%80%A2%20SHIP&fontSize=18&fontColor=ffffff" width="100%" alt="Footer Wave" />
 
 </div>
