@@ -52,7 +52,7 @@
 tharun-b-l
 
 └─$ interests
-AI • Full Stack Development • RAG • Voice AI • Product Engineering
+AI • Full Stack Development • RAG • Voice AI • Codebase Intelligence • RegTech
 
 └─$ status
 Building... Learning... Shipping... ▊
@@ -108,7 +108,7 @@ Building... Learning... Shipping... ▊
   <tr>
     <td width="100%" colspan="2">
       <h3>🌱 Bhoomi</h3>
-      <p><b>AI-powered crop disease and pest detection platform with voice interaction and intelligent agricultural guidance.</b></p>
+      <p><b>Voice-first agricultural AI platform for early crop disease and pest detection with intelligent advisory and human expert escalation.</b></p>
       <p>
         <code>Flutter</code> &nbsp;•&nbsp;
         <code>FastAPI</code> &nbsp;•&nbsp;
@@ -125,7 +125,7 @@ Building... Learning... Shipping... ▊
   <tr>
     <td width="50%" valign="top">
       <h3>🎙️ Voice-enabled-RAG</h3>
-      <p><b>Voice-enabled RAG system for interacting with information through conversational AI across 5 Indic languages.</b></p>
+      <p><b>Enterprise multilingual voice RAG system with sub-50ms hybrid retrieval and real-time audio streaming across 5 Indic languages.</b></p>
       <p>
         <code>Python</code> &nbsp;•&nbsp;
         <code>FastAPI</code> &nbsp;•&nbsp;
@@ -139,7 +139,37 @@ Building... Learning... Shipping... ▊
       </a>
     </td>
     <td width="50%" valign="top">
-      <h3>⚡ HH_Goa_Task_1</h3>
+      <h3>⚖️ PRYSM</h3>
+      <p><b>Continuous AI compliance operating system that ingests financial documents, flags audit risks, and generates audit-ready reports.</b></p>
+      <p>
+        <code>TypeScript</code> &nbsp;•&nbsp;
+        <code>Python</code> &nbsp;•&nbsp;
+        <code>FastAPI</code> &nbsp;•&nbsp;
+        <code>Next.js</code> &nbsp;•&nbsp;
+        <code>Docker</code>
+      </p>
+      <a href="https://github.com/Spyro007-06/PRYSM---Continuous-AI-Compilance-Operating-System">
+        <img src="https://img.shields.io/badge/View_Project_→-F59E0B?style=for-the-badge&logo=github&logoColor=000000" alt="View PRYSM" />
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>⚡ AHAL V2</h3>
+      <p><b>AI-powered codebase intelligence and ingestion engine that parses large repositories into queryable knowledge graphs.</b></p>
+      <p>
+        <code>Python</code> &nbsp;•&nbsp;
+        <code>FastAPI</code> &nbsp;•&nbsp;
+        <code>React</code> &nbsp;•&nbsp;
+        <code>TypeScript</code> &nbsp;•&nbsp;
+        <code>Docker</code>
+      </p>
+      <a href="https://github.com/Spyro007-06/AHAL-V2">
+        <img src="https://img.shields.io/badge/View_Project_→-10B981?style=for-the-badge&logo=github&logoColor=ffffff" alt="View AHAL V2" />
+      </a>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🎨 HH_Goa_Task_1</h3>
       <p><b>Dynamic builder ID card and avatar generation platform with client-side Canvas rendering and cloud storage.</b></p>
       <p>
         <code>Next.js 15</code> &nbsp;•&nbsp;
@@ -170,7 +200,11 @@ Building... Learning... Shipping... ▊
  │
  ├── 🎙️ Voice-enabled-RAG (Multilingual Indic RAG System)
  │
- └── ⚡ HH_Goa_Task_1 (HackerHouse Builder Canvas Studio)
+ ├── ⚖️ PRYSM (Continuous AI Compliance Operating System)
+ │
+ ├── ⚡ AHAL V2 (Codebase Intelligence & Ingestion Engine)
+ │
+ └── 🎨 HH_Goa_Task_1 (HackerHouse Builder Canvas Studio)
 ```
 
 ---
