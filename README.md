@@ -345,7 +345,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
-│  01. INGESTION  │ ──► │  02. RETRIEVAL  │ ──► │  03. GUARDRATE  │ ──► │  04. SYNTHESIS  │ ──► │  05. CLIENT RUN │
+│  01. INGESTION  │ ──► │  02. RETRIEVAL  │ ──► │  03. GUARDRAIL  │ ──► │  04. SYNTHESIS  │ ──► │  05. CLIENT RUN │
 ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤
 │ • Sarvam Voice  │     │ • Qdrant Vector │     │ • Confidence Gt │     │ • Google Gemini │     │ • Flutter (APK) │
 │ • Photo/OCR     │     │ • BM25 Lexical  │     │ • Relevance Veto│     │ • Sarvam TTS    │     │ • Next.js Web   │
