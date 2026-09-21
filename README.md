@@ -161,6 +161,12 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>04. FEATURED PROJECTS & BUILDS</code></h3>
 </div>
 
+<sub><i>Auto-synced daily from my GitHub pinned repositories — see <code>.github/workflows/sync-readme.yml</code>.</i></sub>
+
+<br/>
+
+<!-- START_SECTION:pinned-projects -->
+
 <!-- MISSION 01: BHOOMI -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #00F2FE; border-radius: 8px; margin-bottom: 16px;">
   <tr>
@@ -339,6 +345,8 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
     </td>
   </tr>
 </table>
+
+<!-- END_SECTION:pinned-projects -->
 
 ---
 
