@@ -10,7 +10,7 @@
 
 <!-- Real-time Futuristic Typing Animation (Orbitron Font) -->
 <a href="https://github.com/Spyro007-06">
-  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=21&duration=2600&pause=900&color=00F2FE&center=true&vCenter=true&width=700&lines=AI+%2F+FULL-STACK+SYSTEMS+ARCHITECT;MULTILINGUAL+VOICE+RAG+%E2%80%A2+5+INDIC+LANGUAGES;CONFIDENCE-GATED+AGRICULTURAL+VISION+(BHOOMI);CONTINUOUS+AUDIT+AI+(PRYSM)+%E2%80%A2+AST+GRAPHS;TURNING+BOLD+IDEAS+INTO+PRODUCTION+CODE" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=21&duration=2600&pause=900&color=00F2FE&center=true&vCenter=true&width=700&lines=AI+%2F+FULL-STACK+SYSTEMS+ARCHITECT;MULTILINGUAL+VOICE+RAG+%E2%80%A2+5+INDIC+LANGUAGES;CONFIDENCE-GATED+AGRICULTURAL+VISION+(BHOOMI);AGENTIC+FINANCE+DECISIONS+%E2%80%A2+DETERMINISTIC+CORES;TURNING+BOLD+IDEAS+INTO+PRODUCTION+CODE" alt="Typing Animation" />
 </a>
 
 <br/>
@@ -68,8 +68,8 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 ▸ Indic Voice AI (Sub-50ms TTS/STT pipelines across 5 languages)
 ▸ Grounded RAG Architectures (Vector + Lexical + Cross-Encoder Reranking)
 ▸ Computer Vision Diagnostics (Confidence gates, spatial epidemiology)
-▸ Continuous RegTech & Audit Intelligence (PRYSM compliance engine)
-▸ Full-Stack Engineering (Flutter Android, Next.js 15, FastAPI, PostGIS)
+▸ Agentic Decision Systems (deterministic cores + LLM tool-use loops)
+▸ Full-Stack Engineering (Flutter Android, Next.js 15, Express, FastAPI, PostGIS)
 
 └─$ echo $OPERATIONAL_RULE
 "A missing answer is infinitely better than a confident hallucination."
@@ -104,7 +104,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <div align="center">
   <!-- Interactive Unified Skill Wall -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,dart,ts,js,postgres,fastapi,flutter,react,nextjs,tailwind,docker,git,githubactions,linux&theme=dark" alt="Skill Wall" />
+    <img src="https://skillicons.dev/icons?i=python,dart,ts,js,postgres,fastapi,nodejs,express,prisma,flutter,react,nextjs,tailwind,docker,git,githubactions,linux&theme=dark" alt="Skill Wall" />
   </a>
 </div>
 
@@ -133,11 +133,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
     <td width="25%" valign="top" style="padding: 14px; border-right: 1px solid #21262D;">
       <b style="color: #F59E0B;">BACKEND & DATA</b><br/><br/>
       <code>FastAPI</code><br/>
+      <code>Express / Node.js</code><br/>
+      <code>Prisma ORM</code><br/>
       <code>SQLAlchemy / Alembic</code><br/>
-      <code>PostgreSQL 16</code><br/>
-      <code>PostGIS Spatial</code><br/>
-      <code>pgvector</code><br/>
-      <code>SSE Token Streaming</code>
+      <code>PostgreSQL 16 (PostGIS, pgvector)</code><br/>
+      <code>SSE / Socket.IO Streaming</code>
     </td>
     <td width="25%" valign="top" style="padding: 14px;">
       <b style="color: #10B981;">FRONTEND & INFRA</b><br/><br/>
@@ -223,30 +223,30 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- MISSION 03: PRYSM -->
+<!-- MISSION 03: MUSIFY -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #F59E0B; border-radius: 8px; margin-bottom: 16px;">
   <tr>
     <td style="padding: 20px 24px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #F59E0B;">⚖️ <b>PRYSM</b> &nbsp;<code>REGTECH / COMPLIANCE OS</code></h3>
+            <h3 style="margin: 0; color: #F59E0B;">🎵 <b>MUSIFY</b> &nbsp;<code>FULL-STACK STREAMING</code></h3>
             <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
-              <b>Continuous AI Compliance & Audit Intelligence Platform</b>
+              <b>Music Streaming Platform · Next.js + Express/TypeScript</b>
             </p>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/PRYSM---Continuous-AI-Compilance-Operating-System">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View PRYSM" />
+            <a href="https://github.com/Spyro007-06/musify">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View Musify" />
             </a>
           </td>
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        Continuous AI audit intelligence engine for finance teams and CFOs that ingests regulatory documents, detects compliance gaps, and synthesizes audit-ready risk reports automatically.
+        Full-stack music streaming web app with playlists, likes, listening history, and personalized recommendations — Next.js 15 frontend backed by an Express/Prisma API on Supabase Postgres, with Socket.IO and optional Redis-backed rate limiting/caching.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code> &nbsp;<code>Python</code> &nbsp;<code>FastAPI</code> &nbsp;<code>Next.js</code> &nbsp;<code>Docker</code> &nbsp;<code>Document Ingestion</code>
+        <code>Next.js 15</code> &nbsp;<code>React 19</code> &nbsp;<code>Express</code> &nbsp;<code>Prisma</code> &nbsp;<code>Supabase</code> &nbsp;<code>Socket.IO</code> &nbsp;<code>Upstash Redis</code>
       </p>
     </td>
   </tr>
@@ -254,34 +254,40 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- 2-COLUMN GRID: AHAL-V2 & HH_GOA -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<!-- MISSION 04: BUY OR WAIT? -->
+<table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #10B981; border-radius: 8px; margin-bottom: 16px;">
   <tr>
-    <td width="49%" valign="top">
-      <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #10B981; border-radius: 8px;">
+    <td style="padding: 20px 24px;">
+      <table width="100%">
         <tr>
-          <td style="padding: 16px 20px;">
-            <table width="100%">
-              <tr>
-                <td><h3 style="margin: 0; color: #10B981;">⚡ <b>AHAL V2</b></h3></td>
-                <td align="right">
-                  <a href="https://github.com/Spyro007-06/AHAL-V2">
-                    <img src="https://img.shields.io/badge/INSPECT-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View AHAL V2" />
-                  </a>
-                </td>
-              </tr>
-            </table>
-            <p style="color: #F0F6FC; font-size: 14px; margin: 8px 0 12px 0; line-height: 1.4;">
-              Full-stack developer intelligence engine that analyzes massive codebases, extracts AST structures, and builds queryable architecture graphs.
+          <td align="left">
+            <h3 style="margin: 0; color: #10B981;">💸 <b>BUY OR WAIT?</b> &nbsp;<code>AGENTIC DECISION ENGINE</code></h3>
+            <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
+              <b>HackerRank Orchestrate · September Edition</b>
             </p>
-            <p style="margin: 0;">
-              <code>Python</code> &nbsp;<code>FastAPI</code> &nbsp;<code>React</code> &nbsp;<code>TypeScript</code> &nbsp;<code>Docker</code>
-            </p>
+          </td>
+          <td align="right" valign="top">
+            <a href="https://github.com/Spyro007-06/HackerRank-1">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View Buy or Wait" />
+            </a>
           </td>
         </tr>
       </table>
+      <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
+        An agent that decides whether a user can safely afford an expense, splitting deterministic and agentic work: a plain-Python core owns the conflict-resolution hierarchy, 90-day balance simulation, and plan ranking so every affordability claim is verified — never asserted by the model — while a Gemini tool-use loop handles evidence gathering, ambiguous message interpretation, and candidate plan proposals.
+      </p>
+      <p style="margin: 0;">
+        <code>Python</code> &nbsp;<code>Google Gemini (function calling)</code> &nbsp;<code>Deterministic Simulation</code> &nbsp;<code>Structured Output Validation</code>
+      </p>
     </td>
-    <td width="2%">&nbsp;</td>
+  </tr>
+</table>
+
+<br/>
+
+<!-- 2-COLUMN GRID: HH_GOA & PORTFOLIO -->
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
     <td width="49%" valign="top">
       <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #58A6FF; border-radius: 8px;">
         <tr>
@@ -301,6 +307,31 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
             </p>
             <p style="margin: 0;">
               <code>Next.js 15</code> &nbsp;<code>React 19</code> &nbsp;<code>Canvas API</code> &nbsp;<code>Vercel Blob</code>
+            </p>
+          </td>
+        </tr>
+      </table>
+    </td>
+    <td width="2%">&nbsp;</td>
+    <td width="49%" valign="top">
+      <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #B388FF; border-radius: 8px;">
+        <tr>
+          <td style="padding: 16px 20px;">
+            <table width="100%">
+              <tr>
+                <td><h3 style="margin: 0; color: #B388FF;">🧑‍💻 <b>PORTFOLIO</b></h3></td>
+                <td align="right">
+                  <a href="https://github.com/Spyro007-06/Portfolio">
+                    <img src="https://img.shields.io/badge/INSPECT-161B22?style=for-the-badge&logo=github&logoColor=B388FF" alt="View Portfolio" />
+                  </a>
+                </td>
+              </tr>
+            </table>
+            <p style="color: #F0F6FC; font-size: 14px; margin: 8px 0 12px 0; line-height: 1.4;">
+              Personal portfolio site showcasing projects, skills, and experience as a single self-contained page.
+            </p>
+            <p style="margin: 0;">
+              <code>HTML</code> &nbsp;<code>CSS</code> &nbsp;<code>JavaScript</code>
             </p>
           </td>
         </tr>
@@ -326,11 +357,13 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   │
   ├── ◈ 🎙️ VOICE-ENABLED-RAG         :: Sub-50ms Hybrid Indic Voice Retrieval (HackerHouse Goa)
   │
-  ├── ◈ ⚖️ PRYSM                     :: Continuous AI Compliance & Audit Intelligence Platform
+  ├── ◈ 🎵 MUSIFY                    :: Full-Stack Music Streaming Platform (Next.js + Express)
   │
-  ├── ◈ ⚡ AHAL V2                   :: Codebase Intelligence & AST Ingestion Engine
+  ├── ◈ 💸 BUY OR WAIT?              :: Agentic Affordability Engine (HackerRank Orchestrate)
   │
-  └── ◈ 🎨 HH_GOA_TASK_1             :: Hardware-Accelerated Canvas Badge & Avatar Engine
+  ├── ◈ 🎨 HH_GOA_TASK_1             :: Hardware-Accelerated Canvas Badge & Avatar Engine
+  │
+  └── ◈ 🧑‍💻 PORTFOLIO                :: Personal Site & Project Showcase
 ```
 
 ---
@@ -415,10 +448,10 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 ```
 ┌─[ TELEMETRY: ACTIVE EXPLORATION VECTORS ]─────────────────────────────────┐
 │                                                                           │
-│ 🤖 AGENTIC MULTI-STEP WORKFLOWS & TOOL CALLING   [████████████████░░░░] 80% │
+│ 🤖 AGENTIC MULTI-STEP WORKFLOWS & TOOL CALLING   [██████████████████░░] 90% │
 │ 🎙️ BIDIRECTIONAL FULL-DUPLEX AUDIO WEBSOCKETS    [██████████████░░░░░░] 70% │
-│ ⚖️ CONTINUOUS AUDIT & COMPLIANCE ENGINES (PRYSM) [████████████████░░░░] 80% │
-│ ⚡ CODEBASE AST & REPO KNOWLEDGE GRAPHS (AHAL)   [██████████████░░░░░░] 70% │
+│ 💸 DETERMINISTIC-CORE AGENTS & VERIFIED DECISIONS[█████████████████░░░] 85% │
+│ 🎵 REAL-TIME STREAMING & RECOMMENDATION SYSTEMS  [████████████████░░░░] 80% │
 │ 🌐 DISTRIBUTED EVENT & SPATIAL STREAMING         [████████████░░░░░░░░] 60% │
 │                                                                           │
 └─────────────────────────────────────────────────── STATUS: ALL SYSTEMS GO ┘
@@ -457,6 +490,10 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <a href="https://github.com/Spyro007-06">
   <img src="https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=00F2FE" alt="GitHub" />
+</a>
+&nbsp;
+<a href="https://github.com/Spyro007-06/Portfolio">
+  <img src="https://img.shields.io/badge/PORTFOLIO-SITE-B388FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 &nbsp;
 <a href="https://www.linkedin.com/in/tharun-b-l-143655398">
