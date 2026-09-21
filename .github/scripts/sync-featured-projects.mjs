@@ -18,6 +18,16 @@ const SELF_REPO = USERNAME.toLowerCase();
 
 const PALETTE = ["00F2FE", "B388FF", "F59E0B", "10B981", "58A6FF", "FF6B9D"];
 
+function escapeHtml(unsafe) {
+  if (typeof unsafe !== 'string') return unsafe;
+  return unsafe
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&#039;");
+}
+
 function ghHeaders(extra = {}) {
   const headers = { Accept: "application/vnd.github+json", ...extra };
   if (TOKEN) headers.Authorization = `bearer ${TOKEN}`;
@@ -88,10 +98,11 @@ function renderCard(repo, index) {
   const topics = (repo.repositoryTopics?.nodes ?? []).map((n) => n.topic.name);
   const stack = [repo.primaryLanguage?.name, ...topics].filter(Boolean);
   const stackHtml = stack.length
-    ? stack.map((t) => `<code>${t}</code>`).join(" &nbsp;")
+    ? stack.map((t) => `<code>${escapeHtml(t)}</code>`).join(" &nbsp;")
     : "<code>—</code>";
-  const description = repo.description || "No description provided yet.";
+  const description = escapeHtml(repo.description) || "No description provided yet.";
   const stars = repo.stargazerCount ? ` &nbsp;<code>★ ${repo.stargazerCount}</code>` : "";
+  const safeName = escapeHtml(repo.name);
 
   return `<table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #${color}; border-radius: 8px; margin-bottom: 16px;">
   <tr>
@@ -99,11 +110,11 @@ function renderCard(repo, index) {
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #${color};"><b>${repo.name}</b></h3>
+            <h3 style="margin: 0; color: #${color};"><b>${safeName}</b></h3>
           </td>
           <td align="right" valign="top">
             <a href="${repo.url}">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=${color}" alt="View ${repo.name}" />
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=${color}" alt="View ${safeName}" />
             </a>
           </td>
         </tr>
