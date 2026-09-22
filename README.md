@@ -167,30 +167,26 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <!-- START_SECTION:pinned-projects -->
 
-<!-- MISSION 01: BHOOMI -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #00F2FE; border-radius: 8px; margin-bottom: 16px;">
   <tr>
     <td style="padding: 20px 24px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #00F2FE;">🌱 <b>BHOOMI</b> &nbsp;<code>FLAGSHIP</code></h3>
-            <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
-              <b>Smart India Hackathon · SIH26131 · Government of Maharashtra</b>
-            </p>
+            <h3 style="margin: 0; color: #00F2FE;"><b>Voice-enabled-RAG</b></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/Bhoomi">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=00F2FE" alt="View Bhoomi" />
+            <a href="https://github.com/Spyro007-06/Voice-enabled-RAG">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=00F2FE" alt="View Voice-enabled-RAG" />
             </a>
           </td>
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        Voice-first agricultural AI platform for early crop disease and pest detection, featuring a strict 3-tier confidence decision gate, PostGIS spatial outbreak clustering, and pesticide OCR veto safety logic.
+        No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>Flutter (Android)</code> &nbsp;<code>FastAPI</code> &nbsp;<code>PyTorch</code> &nbsp;<code>PostgreSQL 16</code> &nbsp;<code>PostGIS</code> &nbsp;<code>pgvector</code> &nbsp;<code>Sarvam AI</code> &nbsp;<code>React</code>
+        <code>Python</code> &nbsp;<code>★ 3</code>
       </p>
     </td>
   </tr>
@@ -198,30 +194,26 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- MISSION 02: VOICE-ENABLED-RAG -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #B388FF; border-radius: 8px; margin-bottom: 16px;">
   <tr>
     <td style="padding: 20px 24px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #B388FF;">🎙️ <b>VOICE-ENABLED-RAG</b> &nbsp;<code>VOICE INTELLIGENCE</code></h3>
-            <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
-              <b>HackerHouse Goa 2026 · Multilingual Voice AI Pipeline</b>
-            </p>
+            <h3 style="margin: 0; color: #B388FF;"><b>HH_Goa_Task_1</b></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/Voice-enabled-RAG">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=B388FF" alt="View Voice RAG" />
+            <a href="https://github.com/Spyro007-06/HH_Goa_Task_1">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=B388FF" alt="View HH_Goa_Task_1" />
             </a>
           </td>
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        Enterprise-grade async-first multilingual voice RAG system delivering sub-50ms hybrid retrieval (Qdrant + BM25 + RRF), Cross-Encoder reranking, and real-time audio token streaming across 5 Indic languages.
+        No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>Python 3.11</code> &nbsp;<code>FastAPI</code> &nbsp;<code>Google Gemini 2.5 Flash</code> &nbsp;<code>Qdrant</code> &nbsp;<code>BM25</code> &nbsp;<code>Sarvam AI</code> &nbsp;<code>SSE Streaming</code>
+        <code>TypeScript</code> &nbsp;<code>★ 3</code>
       </p>
     </td>
   </tr>
@@ -229,30 +221,26 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- MISSION 03: MUSIFY -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #F59E0B; border-radius: 8px; margin-bottom: 16px;">
   <tr>
     <td style="padding: 20px 24px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #F59E0B;">🎵 <b>MUSIFY</b> &nbsp;<code>FULL-STACK STREAMING</code></h3>
-            <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
-              <b>Music Streaming Platform · Next.js + Express/TypeScript</b>
-            </p>
+            <h3 style="margin: 0; color: #F59E0B;"><b>musify</b></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/musify">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View Musify" />
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View musify" />
             </a>
           </td>
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        Full-stack music streaming web app with playlists, likes, listening history, and personalized recommendations — Next.js 15 frontend backed by an Express/Prisma API on Supabase Postgres, with Socket.IO and optional Redis-backed rate limiting/caching.
+        No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>Next.js 15</code> &nbsp;<code>React 19</code> &nbsp;<code>Express</code> &nbsp;<code>Prisma</code> &nbsp;<code>Supabase</code> &nbsp;<code>Socket.IO</code> &nbsp;<code>Upstash Redis</code>
+        <code>TypeScript</code> &nbsp;<code>★ 2</code>
       </p>
     </td>
   </tr>
@@ -260,30 +248,26 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- MISSION 04: BUY OR WAIT? -->
 <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #10B981; border-radius: 8px; margin-bottom: 16px;">
   <tr>
     <td style="padding: 20px 24px;">
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #10B981;">💸 <b>BUY OR WAIT?</b> &nbsp;<code>AGENTIC DECISION ENGINE</code></h3>
-            <p style="color: #8B949E; margin: 4px 0 10px 0; font-size: 13px;">
-              <b>HackerRank Orchestrate · September Edition</b>
-            </p>
+            <h3 style="margin: 0; color: #10B981;"><b>Portfolio</b></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/HackerRank-1">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View Buy or Wait" />
+            <a href="https://github.com/Spyro007-06/Portfolio">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View Portfolio" />
             </a>
           </td>
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        An agent that decides whether a user can safely afford an expense, splitting deterministic and agentic work: a plain-Python core owns the conflict-resolution hierarchy, 90-day balance simulation, and plan ranking so every affordability claim is verified — never asserted by the model — while a Gemini tool-use loop handles evidence gathering, ambiguous message interpretation, and candidate plan proposals.
+        No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>Python</code> &nbsp;<code>Google Gemini (function calling)</code> &nbsp;<code>Deterministic Simulation</code> &nbsp;<code>Structured Output Validation</code>
+        <code>HTML</code> &nbsp;<code>★ 2</code>
       </p>
     </td>
   </tr>
@@ -291,57 +275,27 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <br/>
 
-<!-- 2-COLUMN GRID: HH_GOA & PORTFOLIO -->
-<table width="100%" border="0" cellspacing="0" cellpadding="0">
+<table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #58A6FF; border-radius: 8px; margin-bottom: 16px;">
   <tr>
-    <td width="49%" valign="top">
-      <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #58A6FF; border-radius: 8px;">
+    <td style="padding: 20px 24px;">
+      <table width="100%">
         <tr>
-          <td style="padding: 16px 20px;">
-            <table width="100%">
-              <tr>
-                <td><h3 style="margin: 0; color: #58A6FF;">🎨 <b>HH_GOA_TASK_1</b></h3></td>
-                <td align="right">
-                  <a href="https://github.com/Spyro007-06/HH_Goa_Task_1">
-                    <img src="https://img.shields.io/badge/INSPECT-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" alt="View HH Goa" />
-                  </a>
-                </td>
-              </tr>
-            </table>
-            <p style="color: #F0F6FC; font-size: 14px; margin: 8px 0 12px 0; line-height: 1.4;">
-              Interactive builder badge studio featuring hardware-accelerated Canvas synthesis, on-the-fly Apple HEIC decoding, and edge blob storage.
-            </p>
-            <p style="margin: 0;">
-              <code>Next.js 15</code> &nbsp;<code>React 19</code> &nbsp;<code>Canvas API</code> &nbsp;<code>Vercel Blob</code>
-            </p>
+          <td align="left">
+            <h3 style="margin: 0; color: #58A6FF;"><b>HackerRank-1</b></h3>
+          </td>
+          <td align="right" valign="top">
+            <a href="https://github.com/Spyro007-06/HackerRank-1">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=58A6FF" alt="View HackerRank-1" />
+            </a>
           </td>
         </tr>
       </table>
-    </td>
-    <td width="2%">&nbsp;</td>
-    <td width="49%" valign="top">
-      <table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #B388FF; border-radius: 8px;">
-        <tr>
-          <td style="padding: 16px 20px;">
-            <table width="100%">
-              <tr>
-                <td><h3 style="margin: 0; color: #B388FF;">🧑‍💻 <b>PORTFOLIO</b></h3></td>
-                <td align="right">
-                  <a href="https://github.com/Spyro007-06/Portfolio">
-                    <img src="https://img.shields.io/badge/INSPECT-161B22?style=for-the-badge&logo=github&logoColor=B388FF" alt="View Portfolio" />
-                  </a>
-                </td>
-              </tr>
-            </table>
-            <p style="color: #F0F6FC; font-size: 14px; margin: 8px 0 12px 0; line-height: 1.4;">
-              Personal portfolio site showcasing projects, skills, and experience as a single self-contained page.
-            </p>
-            <p style="margin: 0;">
-              <code>HTML</code> &nbsp;<code>CSS</code> &nbsp;<code>JavaScript</code>
-            </p>
-          </td>
-        </tr>
-      </table>
+      <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
+        No description provided yet.
+      </p>
+      <p style="margin: 0;">
+        <code>TypeScript</code> &nbsp;<code>★ 2</code>
+      </p>
     </td>
   </tr>
 </table>
