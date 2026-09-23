@@ -89,7 +89,7 @@ async function fetchTopRepos() {
       url: r.html_url,
       stargazerCount: r.stargazers_count,
       primaryLanguage: r.language ? { name: r.language } : null,
-      repositoryTopics: { nodes: [] },
+      repositoryTopics: { nodes: (r.topics || []).slice(0, 5).map(t => ({ topic: { name: t } })) },
     }));
 }
 
