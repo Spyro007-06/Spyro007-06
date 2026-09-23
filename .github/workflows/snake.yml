@@ -26,7 +26,11 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # The default GITHUB_TOKEN can only see public activity, which
+          # undercounts contributions to private repos. PROFILE_GH_TOKEN
+          # (a PAT with access to those repos) makes the snake match the
+          # real contribution graph shown on the GitHub profile.
+          GITHUB_TOKEN: ${{ secrets.PROFILE_GH_TOKEN || secrets.GITHUB_TOKEN }}
 
       - name: Push github-contribution-grid-snake.svg to the output branch
         uses: crazy-max/ghaction-github-pages@v3.1.0
