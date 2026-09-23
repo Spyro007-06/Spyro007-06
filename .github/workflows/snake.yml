@@ -18,6 +18,16 @@ jobs:
     timeout-minutes: 5
 
     steps:
+      - name: Check whether PROFILE_GH_TOKEN is configured
+        env:
+          HAS_PAT: ${{ secrets.PROFILE_GH_TOKEN != '' }}
+        run: |
+          if [ "$HAS_PAT" = "true" ]; then
+            echo "PROFILE_GH_TOKEN is set — using it for the contribution query."
+          else
+            echo "::warning::PROFILE_GH_TOKEN is NOT set — falling back to the default GITHUB_TOKEN, which only sees public activity."
+          fi
+
       - name: Generate github-contribution-grid-snake.svg
         uses: Platane/snk/svg-only@v3
         with:
