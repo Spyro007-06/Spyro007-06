@@ -60,7 +60,10 @@ async function fetchPinnedRepos() {
       headers: ghHeaders({ "Content-Type": "application/json" }),
       body: JSON.stringify({ query, variables: { login: USERNAME } }),
     });
-    if (!res.ok) return [];
+    if (!res.ok) {
+      console.warn(`GraphQL pinnedItems query failed with status: ${res.status} ${res.statusText}`);
+      return [];
+    }
     const json = await res.json();
     if (json.errors) {
       console.warn("GraphQL pinnedItems query failed:", JSON.stringify(json.errors));
@@ -80,7 +83,7 @@ async function fetchTopRepos() {
       `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner`,
       { headers: ghHeaders() }
     );
-    if (!res.ok) throw new Error(`GitHub REST API error: ${res.status}`);
+    if (!res.ok) throw new Error(`GitHub REST API error: ${res.status} ${res.statusText}`);
     repos = await res.json();
   } catch (err) {
     throw new Error(`Failed to fetch top repos: ${err.message}`);
