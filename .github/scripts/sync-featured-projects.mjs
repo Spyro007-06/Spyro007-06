@@ -54,27 +54,38 @@ async function fetchPinnedRepos() {
       }
     }
   `;
-  const res = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: ghHeaders({ "Content-Type": "application/json" }),
-    body: JSON.stringify({ query, variables: { login: USERNAME } }),
-  });
-  if (!res.ok) return [];
-  const json = await res.json();
-  if (json.errors) {
-    console.warn("GraphQL pinnedItems query failed:", JSON.stringify(json.errors));
+  try {
+    const res = await fetch("https://api.github.com/graphql", {
+      method: "POST",
+      headers: ghHeaders({ "Content-Type": "application/json" }),
+      body: JSON.stringify({ query, variables: { login: USERNAME } }),
+    });
+    if (!res.ok) return [];
+    const json = await res.json();
+    if (json.errors) {
+      console.warn("GraphQL pinnedItems query failed:", JSON.stringify(json.errors));
+      return [];
+    }
+    return json.data?.user?.pinnedItems?.nodes ?? [];
+  } catch (err) {
+    console.warn("Network error during GraphQL pinnedItems query:", err.message);
     return [];
   }
-  return json.data?.user?.pinnedItems?.nodes ?? [];
 }
 
 async function fetchTopRepos() {
-  const res = await fetch(
-    `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner`,
-    { headers: ghHeaders() }
-  );
-  if (!res.ok) throw new Error(`GitHub REST API error: ${res.status}`);
-  const repos = await res.json();
+  let repos;
+  try {
+    const res = await fetch(
+      `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner`,
+      { headers: ghHeaders() }
+    );
+    if (!res.ok) throw new Error(`GitHub REST API error: ${res.status}`);
+    repos = await res.json();
+  } catch (err) {
+    throw new Error(`Failed to fetch top repos: ${err.message}`);
+  }
+
   return repos
     .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== SELF_REPO)
     .sort(
