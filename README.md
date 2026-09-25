@@ -227,11 +227,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #F59E0B;"><b>Portfolio</b></h3>
+            <h3 style="margin: 0; color: #F59E0B;"><b>musify</b></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/Portfolio">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View Portfolio" />
+            <a href="https://github.com/Spyro007-06/musify">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View musify" />
             </a>
           </td>
         </tr>
@@ -254,11 +254,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #10B981;"><b>musify</b></h3>
+            <h3 style="margin: 0; color: #10B981;"><b>Portfolio</b></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/musify">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View musify" />
+            <a href="https://github.com/Spyro007-06/Portfolio">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View Portfolio" />
             </a>
           </td>
         </tr>
