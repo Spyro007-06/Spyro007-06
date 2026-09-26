@@ -300,6 +300,33 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   </tr>
 </table>
 
+<br/>
+
+<table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #FF6B9D; border-radius: 8px; margin-bottom: 16px;">
+  <tr>
+    <td style="padding: 20px 24px;">
+      <table width="100%">
+        <tr>
+          <td align="left">
+            <h3 style="margin: 0; color: #FF6B9D;"><b>H2S</b></h3>
+          </td>
+          <td align="right" valign="top">
+            <a href="https://github.com/Spyro007-06/H2S">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=FF6B9D" alt="View H2S" />
+            </a>
+          </td>
+        </tr>
+      </table>
+      <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
+        No description provided yet.
+      </p>
+      <p style="margin: 0;">
+        <code>TypeScript</code>
+      </p>
+    </td>
+  </tr>
+</table>
+
 <!-- END_SECTION:pinned-projects -->
 
 ---
