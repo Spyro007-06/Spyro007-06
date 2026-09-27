@@ -77,14 +77,27 @@ async function fetchPinnedRepos() {
 }
 
 async function fetchTopRepos() {
-  let repos;
+  let repos = [];
+  let page = 1;
+  let hasMore = true;
+
   try {
-    const res = await fetch(
-      `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner`,
-      { headers: ghHeaders() }
-    );
-    if (!res.ok) throw new Error(`GitHub REST API error: ${res.status} ${res.statusText}`);
-    repos = await res.json();
+    while (hasMore) {
+      const res = await fetch(
+        `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner&page=${page}`,
+        { headers: ghHeaders() }
+      );
+      if (!res.ok) throw new Error(`GitHub REST API error: ${res.status} ${res.statusText}`);
+
+      const pageRepos = await res.json();
+      repos = repos.concat(pageRepos);
+
+      if (pageRepos.length < 100) {
+        hasMore = false;
+      } else {
+        page++;
+      }
+    }
   } catch (err) {
     throw new Error(`Failed to fetch top repos: ${err.message}`);
   }
