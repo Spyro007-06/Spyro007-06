@@ -29,7 +29,11 @@ function escapeHtml(unsafe) {
 }
 
 function ghHeaders(extra = {}) {
-  const headers = { Accept: "application/vnd.github+json", ...extra };
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    ...extra,
+  };
   if (TOKEN) headers.Authorization = `bearer ${TOKEN}`;
   return headers;
 }
