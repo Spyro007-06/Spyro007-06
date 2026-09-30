@@ -29,8 +29,12 @@ function escapeHtml(unsafe) {
 }
 
 function ghHeaders(extra = {}) {
-  const headers = { Accept: "application/vnd.github+json", ...extra };
-  if (TOKEN) headers.Authorization = `bearer ${TOKEN}`;
+  const headers = {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    ...extra
+  };
+  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
   return headers;
 }
 
@@ -128,7 +132,8 @@ function renderCard(repo, index) {
     ? stack.map((t) => `<code>${escapeHtml(t)}</code>`).join(" &nbsp;")
     : "<code>—</code>";
   const description = escapeHtml(repo.description) || "No description provided yet.";
-  const stars = repo.stargazerCount ? ` &nbsp;<code>★ ${repo.stargazerCount}</code>` : "";
+  const formattedStars = new Intl.NumberFormat('en-US').format(repo.stargazerCount);
+  const stars = repo.stargazerCount ? ` &nbsp;<code>★ ${formattedStars}</code>` : "";
   const safeName = escapeHtml(repo.name);
 
   return `<table width="100%" bgcolor="#050811" style="border: 1px solid #30363D; border-left: 6px solid #${color}; border-radius: 8px; margin-bottom: 16px;">
@@ -177,6 +182,9 @@ async function main() {
   const endIdx = readme.indexOf(END_MARKER);
   if (startIdx === -1 || endIdx === -1) {
     throw new Error(`README.md is missing ${START_MARKER} / ${END_MARKER} markers`);
+  }
+  if (startIdx >= endIdx) {
+    throw new Error(`README.md section markers are out of order`);
   }
 
   const updated =
