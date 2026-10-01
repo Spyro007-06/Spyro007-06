@@ -7,7 +7,7 @@
 // `repo` scope covers private pinned repos too; the default GITHUB_TOKEN
 // only sees public data).
 
-import { readFileSync, writeFileSync } from "node:fs";
+import { readFile, writeFile } from "node:fs/promises";
 
 const USERNAME = process.env.GH_USERNAME || "Spyro007-06";
 const TOKEN = process.env.GH_TOKEN;
@@ -74,7 +74,15 @@ async function fetchPinnedRepos() {
       console.warn("GraphQL pinnedItems query failed:", JSON.stringify(json.errors));
       return [];
     }
-    return json.data?.user?.pinnedItems?.nodes ?? [];
+    const nodes = json.data?.user?.pinnedItems?.nodes ?? [];
+    return nodes.map(repo => ({
+      name: repo.name,
+      description: repo.description,
+      url: repo.url,
+      stargazerCount: repo.stargazerCount,
+      language: repo.primaryLanguage?.name || null,
+      topics: repo.repositoryTopics?.nodes?.map(n => n.topic.name) || []
+    }));
   } catch (err) {
     console.warn("Network error during GraphQL pinnedItems query:", err.message);
     return [];
@@ -120,15 +128,14 @@ async function fetchTopRepos() {
       description: r.description,
       url: r.html_url,
       stargazerCount: r.stargazers_count,
-      primaryLanguage: r.language ? { name: r.language } : null,
-      repositoryTopics: { nodes: (r.topics || []).slice(0, 5).map(t => ({ topic: { name: t } })) },
+      language: r.language || null,
+      topics: (r.topics || []).slice(0, 5)
     }));
 }
 
 function renderCard(repo, index) {
   const color = PALETTE[index % PALETTE.length];
-  const topics = (repo.repositoryTopics?.nodes ?? []).map((n) => n.topic.name);
-  const stack = [repo.primaryLanguage?.name, ...topics].filter(Boolean);
+  const stack = [repo.language, ...repo.topics].filter(Boolean);
   const stackHtml = stack.length
     ? stack.map((t) => `<code>${escapeHtml(t)}</code>`).join(" &nbsp;")
     : "<code>—</code>";
@@ -177,7 +184,7 @@ async function main() {
   console.log(`Featuring ${repos.length} repos from ${source}: ${repos.map((r) => r.name).join(", ")}`);
 
   const body = repos.map((r, i) => renderCard(r, i)).join("\n\n<br/>\n\n");
-  const readme = readFileSync(README_PATH, "utf8");
+  const readme = await readFile(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
   const endIdx = readme.indexOf(END_MARKER);
   if (startIdx === -1 || endIdx === -1) {
@@ -191,7 +198,7 @@ async function main() {
     "\n\n" +
     readme.slice(endIdx);
 
-  writeFileSync(README_PATH, updated);
+  await writeFile(README_PATH, updated);
 }
 
 main().catch((err) => {
