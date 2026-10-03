@@ -149,7 +149,7 @@ function renderCard(repo, index) {
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #${color};"><b>${safeName}</b></h3>
+            <h3 style="margin: 0; color: #${color};"><a href="${repo.url}" style="color: inherit; text-decoration: none;"><b>${safeName}</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="${repo.url}">
