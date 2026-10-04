@@ -9,7 +9,7 @@
 <br/>
 
 <!-- Real-time Futuristic Typing Animation (Orbitron Font) -->
-<a href="https://github.com/Spyro007-06">
+<a href="https://github.com/Spyro007-06" target="_blank" rel="noopener noreferrer">
   <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=21&duration=2600&pause=900&color=00F2FE&center=true&vCenter=true&width=700&lines=AI+%2F+FULL-STACK+SYSTEMS+ARCHITECT;MULTILINGUAL+VOICE+RAG+%E2%80%A2+5+INDIC+LANGUAGES;CONFIDENCE-GATED+AGRICULTURAL+VISION+(BHOOMI);AGENTIC+FINANCE+DECISIONS+%E2%80%A2+DETERMINISTIC+CORES;TURNING+BOLD+IDEAS+INTO+PRODUCTION+CODE" alt="Typing Animation" />
 </a>
 
@@ -23,15 +23,15 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/tharun-b-l-143655398">
+  <a href="https://www.linkedin.com/in/tharun-b-l-143655398" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   &nbsp;
-  <a href="mailto:bltharun9080@gmail.com">
+  <a href="mailto:bltharun9080@gmail.com" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/EMAIL-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   &nbsp;
-  <a href="https://github.com/Spyro007-06">
+  <a href="https://github.com/Spyro007-06" target="_blank" rel="noopener noreferrer">
     <img src="https://img.shields.io/badge/GITHUB-181717?style=for-the-badge&logo=github&logoColor=00F2FE" alt="GitHub" />
   </a>
 </p>
@@ -103,7 +103,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <div align="center">
   <!-- Interactive Unified Skill Wall -->
-  <a href="https://skillicons.dev">
+  <a href="https://skillicons.dev" target="_blank" rel="noopener noreferrer">
     <img src="https://skillicons.dev/icons?i=python,dart,ts,js,postgres,fastapi,nodejs,express,prisma,flutter,react,nextjs,tailwind,docker,git,githubactions,linux&theme=dark" alt="Skill Wall" />
   </a>
 </div>
@@ -456,13 +456,13 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>10. ENGINEERING PHILOSOPHY</code></h3>
 </div>
 
-> **01. Zero Tolerance for Hallucination.**  
+> **01. Zero Tolerance for Hallucination.**
 > *A missing answer is infinitely superior to a confident, destructive falsehood. Define operational boundaries, enforce confidence gates, and escalate to humans gracefully.*
 
-> **02. Hybrid Over Hype.**  
+> **02. Hybrid Over Hype.**
 > *Pure vector search fails on product codes, vernacular phrases, and exact IDs. True production retrieval requires fusing dense semantic vectors with lexical BM25 and neural cross-encoders.*
 
-> **03. Accessibility as a First Principle.**  
+> **03. Accessibility as a First Principle.**
 > *Real-world AI cannot remain confined to English desktop users. Multilingual voice interfaces unlock advanced intelligence for non-English speaking operators.*
 
 ---
@@ -477,19 +477,19 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 <div align="center">
 
-<a href="https://github.com/Spyro007-06">
+<a href="https://github.com/Spyro007-06" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/GITHUB-PROFILE-181717?style=for-the-badge&logo=github&logoColor=00F2FE" alt="GitHub" />
 </a>
 &nbsp;
-<a href="https://github.com/Spyro007-06/Portfolio">
+<a href="https://github.com/Spyro007-06/Portfolio" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/PORTFOLIO-SITE-B388FF?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
 </a>
 &nbsp;
-<a href="https://www.linkedin.com/in/tharun-b-l-143655398">
+<a href="https://www.linkedin.com/in/tharun-b-l-143655398" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/LINKEDIN-NETWORK-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
 </a>
 &nbsp;
-<a href="mailto:bltharun9080@gmail.com">
+<a href="mailto:bltharun9080@gmail.com" target="_blank" rel="noopener noreferrer">
   <img src="https://img.shields.io/badge/ENCRYPTED_MAIL-INBOX-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
 </a>
 
