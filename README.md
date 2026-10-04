@@ -173,7 +173,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #00F2FE;"><b>Voice-enabled-RAG</b></h3>
+            <h3 style="margin: 0; color: #00F2FE;"><a href="https://github.com/Spyro007-06/Voice-enabled-RAG" style="color: inherit; text-decoration: none;"><b>Voice-enabled-RAG</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/Voice-enabled-RAG">
@@ -200,7 +200,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #B388FF;"><b>HH_Goa_Task_1</b></h3>
+            <h3 style="margin: 0; color: #B388FF;"><a href="https://github.com/Spyro007-06/HH_Goa_Task_1" style="color: inherit; text-decoration: none;"><b>HH_Goa_Task_1</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/HH_Goa_Task_1">
@@ -227,7 +227,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #F59E0B;"><b>musify</b></h3>
+            <h3 style="margin: 0; color: #F59E0B;"><a href="https://github.com/Spyro007-06/musify" style="color: inherit; text-decoration: none;"><b>musify</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/musify">
@@ -254,7 +254,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #10B981;"><b>Portfolio</b></h3>
+            <h3 style="margin: 0; color: #10B981;"><a href="https://github.com/Spyro007-06/Portfolio" style="color: inherit; text-decoration: none;"><b>Portfolio</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/Portfolio">
@@ -281,7 +281,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #58A6FF;"><b>HackerRank-1</b></h3>
+            <h3 style="margin: 0; color: #58A6FF;"><a href="https://github.com/Spyro007-06/HackerRank-1" style="color: inherit; text-decoration: none;"><b>HackerRank-1</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/HackerRank-1">
@@ -308,7 +308,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #FF6B9D;"><b>H2S</b></h3>
+            <h3 style="margin: 0; color: #FF6B9D;"><a href="https://github.com/Spyro007-06/H2S" style="color: inherit; text-decoration: none;"><b>H2S</b></a></h3>
           </td>
           <td align="right" valign="top">
             <a href="https://github.com/Spyro007-06/H2S">
