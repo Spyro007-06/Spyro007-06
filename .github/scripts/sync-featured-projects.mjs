@@ -66,13 +66,11 @@ async function fetchPinnedRepos() {
       body: JSON.stringify({ query, variables: { login: USERNAME } }),
     });
     if (!res.ok) {
-      console.warn(`GraphQL pinnedItems query failed with status: ${res.status} ${res.statusText}`);
-      return [];
+      throw new Error(`GraphQL pinnedItems query failed with status: ${res.status} ${res.statusText}`);
     }
     const json = await res.json();
     if (json.errors) {
-      console.warn("GraphQL pinnedItems query failed:", JSON.stringify(json.errors));
-      return [];
+      throw new Error(`GraphQL pinnedItems query failed: ${JSON.stringify(json.errors)}`);
     }
     const nodes = json.data?.user?.pinnedItems?.nodes ?? [];
     return nodes.map(repo => ({
@@ -84,8 +82,7 @@ async function fetchPinnedRepos() {
       topics: repo.repositoryTopics?.nodes?.map(n => n.topic.name) || []
     }));
   } catch (err) {
-    console.warn("Network error during GraphQL pinnedItems query:", err.message);
-    return [];
+    throw new Error(`Network error during GraphQL pinnedItems query: ${err.message}`);
   }
 }
 
