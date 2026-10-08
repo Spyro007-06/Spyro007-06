@@ -113,7 +113,7 @@ async function fetchTopRepos() {
   }
 
   return repos
-    .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== SELF_REPO)
+    .filter((r) => !r.fork && !r.archived && !r.private && r.name.toLowerCase() !== SELF_REPO)
     .sort(
       (a, b) =>
         b.stargazers_count - a.stargazers_count ||
