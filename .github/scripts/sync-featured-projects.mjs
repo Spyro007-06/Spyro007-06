@@ -47,6 +47,7 @@ async function fetchPinnedRepos() {
         pinnedItems(first: 6, types: REPOSITORY) {
           nodes {
             ... on Repository {
+              isPrivate
               name
               description
               url
@@ -73,7 +74,7 @@ async function fetchPinnedRepos() {
       throw new Error(`GraphQL pinnedItems query failed: ${JSON.stringify(json.errors)}`);
     }
     const nodes = json.data?.user?.pinnedItems?.nodes ?? [];
-    return nodes.map(repo => ({
+    return nodes.filter(repo => !repo.isPrivate).map(repo => ({
       name: repo.name,
       description: repo.description,
       url: repo.url,
@@ -113,7 +114,7 @@ async function fetchTopRepos() {
   }
 
   return repos
-    .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== SELF_REPO)
+    .filter((r) => !r.private && !r.fork && !r.archived && r.name.toLowerCase() !== SELF_REPO)
     .sort(
       (a, b) =>
         b.stargazers_count - a.stargazers_count ||
