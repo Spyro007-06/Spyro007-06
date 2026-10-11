@@ -50,6 +50,7 @@ async function fetchPinnedRepos() {
               name
               description
               url
+              isPrivate
               stargazerCount
               primaryLanguage { name }
               repositoryTopics(first: 5) { nodes { topic { name } } }
@@ -73,7 +74,7 @@ async function fetchPinnedRepos() {
       throw new Error(`GraphQL pinnedItems query failed: ${JSON.stringify(json.errors)}`);
     }
     const nodes = json.data?.user?.pinnedItems?.nodes ?? [];
-    return nodes.map(repo => ({
+    return nodes.filter(repo => !repo.isPrivate).map(repo => ({
       name: repo.name,
       description: repo.description,
       url: repo.url,
@@ -113,7 +114,7 @@ async function fetchTopRepos() {
   }
 
   return repos
-    .filter((r) => !r.fork && !r.archived && r.name.toLowerCase() !== SELF_REPO)
+    .filter((r) => !r.fork && !r.archived && !r.private && r.name.toLowerCase() !== SELF_REPO)
     .sort(
       (a, b) =>
         b.stargazers_count - a.stargazers_count ||
