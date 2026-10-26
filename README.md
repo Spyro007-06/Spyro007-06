@@ -308,11 +308,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #FF6B9D;"><a href="https://github.com/Spyro007-06/H2S" style="color: inherit; text-decoration: none;"><b>H2S</b></a></h3>
+            <h3 style="margin: 0; color: #FF6B9D;"><a href="https://github.com/Spyro007-06/hacktober" style="color: inherit; text-decoration: none;"><b>hacktober</b></a></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/H2S">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=FF6B9D" alt="View H2S" />
+            <a href="https://github.com/Spyro007-06/hacktober">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=FF6B9D" alt="View hacktober" />
             </a>
           </td>
         </tr>
@@ -321,7 +321,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code>
+        <code>—</code>
       </p>
     </td>
   </tr>
