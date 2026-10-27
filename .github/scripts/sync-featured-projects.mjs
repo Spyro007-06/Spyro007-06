@@ -135,7 +135,16 @@ async function fetchTopRepos() {
 
 function renderCard(repo, index) {
   const color = PALETTE[index % PALETTE.length];
-  const stack = [repo.language, ...repo.topics].filter(Boolean);
+  const rawStack = [repo.language, ...repo.topics].filter(Boolean);
+  const stack = [];
+  const seen = new Set();
+  for (const item of rawStack) {
+    const lower = item.toLowerCase();
+    if (!seen.has(lower)) {
+      seen.add(lower);
+      stack.push(item);
+    }
+  }
   const stackHtml = stack.length
     ? stack.map((t) => `<code>${escapeHtml(t)}</code>`).join(" &nbsp;")
     : "<code>—</code>";
