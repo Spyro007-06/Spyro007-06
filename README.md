@@ -186,7 +186,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>Python</code> &nbsp;<code>★ 3</code>
+        <code>Python</code> &nbsp;<code>★ 4</code>
       </p>
     </td>
   </tr>
@@ -213,7 +213,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code> &nbsp;<code>★ 3</code>
+        <code>TypeScript</code> &nbsp;<code>★ 4</code>
       </p>
     </td>
   </tr>
@@ -227,11 +227,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #F59E0B;"><a href="https://github.com/Spyro007-06/Portfolio" style="color: inherit; text-decoration: none;"><b>Portfolio</b></a></h3>
+            <h3 style="margin: 0; color: #F59E0B;"><a href="https://github.com/Spyro007-06/musify" style="color: inherit; text-decoration: none;"><b>musify</b></a></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/Portfolio">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View Portfolio" />
+            <a href="https://github.com/Spyro007-06/musify">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=F59E0B" alt="View musify" />
             </a>
           </td>
         </tr>
@@ -240,7 +240,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code> &nbsp;<code>★ 2</code>
+        <code>TypeScript</code> &nbsp;<code>★ 3</code>
       </p>
     </td>
   </tr>
@@ -254,11 +254,11 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
       <table width="100%">
         <tr>
           <td align="left">
-            <h3 style="margin: 0; color: #10B981;"><a href="https://github.com/Spyro007-06/musify" style="color: inherit; text-decoration: none;"><b>musify</b></a></h3>
+            <h3 style="margin: 0; color: #10B981;"><a href="https://github.com/Spyro007-06/Portfolio" style="color: inherit; text-decoration: none;"><b>Portfolio</b></a></h3>
           </td>
           <td align="right" valign="top">
-            <a href="https://github.com/Spyro007-06/musify">
-              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View musify" />
+            <a href="https://github.com/Spyro007-06/Portfolio">
+              <img src="https://img.shields.io/badge/EXPLORE_MISSION-161B22?style=for-the-badge&logo=github&logoColor=10B981" alt="View Portfolio" />
             </a>
           </td>
         </tr>
@@ -267,7 +267,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code> &nbsp;<code>★ 2</code>
+        <code>TypeScript</code> &nbsp;<code>★ 3</code>
       </p>
     </td>
   </tr>
@@ -294,7 +294,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         No description provided yet.
       </p>
       <p style="margin: 0;">
-        <code>TypeScript</code> &nbsp;<code>★ 2</code>
+        <code>TypeScript</code> &nbsp;<code>★ 3</code>
       </p>
     </td>
   </tr>
@@ -318,10 +318,10 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
         </tr>
       </table>
       <p style="color: #F0F6FC; font-size: 15px; margin: 8px 0 14px 0; line-height: 1.5;">
-        No description provided yet.
+        Kural (குரல்): speak a civic complaint in Tamil or English, add a photo, and get the right bilingual government letter. Gemma 4 reads it; fixed rules choose where it goes. Runs offline.
       </p>
       <p style="margin: 0;">
-        <code>—</code>
+        <code>Python</code> &nbsp;<code>civic-tech</code> &nbsp;<code>fastapi</code> &nbsp;<code>gemma</code> &nbsp;<code>gemma-4</code> &nbsp;<code>hackathon</code> &nbsp;<code>★ 1</code>
       </p>
     </td>
   </tr>
