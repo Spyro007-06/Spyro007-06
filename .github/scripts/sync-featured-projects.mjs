@@ -190,6 +190,9 @@ async function main() {
   if (startIdx === -1 || endIdx === -1) {
     throw new Error(`README.md is missing ${START_MARKER} / ${END_MARKER} markers`);
   }
+  if (startIdx + START_MARKER.length > endIdx) {
+    throw new Error(`README.md markers are out of order or overlapping`);
+  }
 
   const updated =
     readme.slice(0, startIdx + START_MARKER.length) +
