@@ -67,7 +67,8 @@ async function fetchPinnedRepos() {
       body: JSON.stringify({ query, variables: { login: USERNAME } }),
     });
     if (!res.ok) {
-      throw new Error(`GraphQL pinnedItems query failed with status: ${res.status} ${res.statusText}`);
+      const text = await res.text();
+      throw new Error(`GraphQL pinnedItems query failed with status: ${res.status} ${res.statusText}\n${text}`);
     }
     const json = await res.json();
     if (json.errors) {
@@ -100,7 +101,10 @@ async function fetchTopRepos() {
         `https://api.github.com/users/${USERNAME}/repos?per_page=100&type=owner&page=${page}`,
         { headers: ghHeaders() }
       );
-      if (!res.ok) throw new Error(`GitHub REST API error: ${res.status} ${res.statusText}`);
+      if (!res.ok) {
+        const text = await res.text();
+        throw new Error(`GitHub REST API error: ${res.status} ${res.statusText}\n${text}`);
+      }
 
       const pageRepos = await res.json();
       repos = repos.concat(pageRepos);
@@ -189,6 +193,9 @@ async function main() {
   const endIdx = readme.indexOf(END_MARKER);
   if (startIdx === -1 || endIdx === -1) {
     throw new Error(`README.md is missing ${START_MARKER} / ${END_MARKER} markers`);
+  }
+  if (startIdx >= endIdx) {
+    throw new Error(`README.md marker order is invalid: START_MARKER must precede END_MARKER`);
   }
 
   const updated =
