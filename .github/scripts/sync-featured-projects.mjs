@@ -35,7 +35,7 @@ function ghHeaders(extra = {}) {
     "User-Agent": "sync-featured-projects",
     ...extra
   };
-  if (TOKEN) headers.Authorization = `bearer ${TOKEN}`;
+  if (TOKEN) headers.Authorization = `Bearer ${TOKEN}`;
   return headers;
 }
 
@@ -186,9 +186,9 @@ async function main() {
   const body = repos.map((r, i) => renderCard(r, i)).join("\n\n<br/>\n\n");
   const readme = await readFile(README_PATH, "utf8");
   const startIdx = readme.indexOf(START_MARKER);
-  const endIdx = readme.indexOf(END_MARKER);
-  if (startIdx === -1 || endIdx === -1) {
-    throw new Error(`README.md is missing ${START_MARKER} / ${END_MARKER} markers`);
+  const endIdx = readme.indexOf(END_MARKER, startIdx + START_MARKER.length);
+  if (startIdx === -1 || endIdx === -1 || startIdx >= endIdx) {
+    throw new Error(`README.md is missing or has malformed ${START_MARKER} / ${END_MARKER} markers`);
   }
 
   const updated =
