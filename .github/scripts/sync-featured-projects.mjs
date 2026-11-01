@@ -18,6 +18,11 @@ const SELF_REPO = USERNAME.toLowerCase();
 
 const PALETTE = ["00F2FE", "B388FF", "F59E0B", "10B981", "58A6FF", "FF6B9D"];
 
+/**
+ * Escapes HTML characters in a string to prevent XSS and formatting issues.
+ * @param {string} unsafe - The string to escape.
+ * @returns {string} The escaped string.
+ */
 function escapeHtml(unsafe) {
   if (typeof unsafe !== 'string') return unsafe;
   return unsafe
@@ -28,6 +33,11 @@ function escapeHtml(unsafe) {
     .replace(/'/g, "&#039;");
 }
 
+/**
+ * Generates standard headers for GitHub API requests.
+ * @param {Object} [extra={}] - Additional headers to merge.
+ * @returns {Object} The complete headers object.
+ */
 function ghHeaders(extra = {}) {
   const headers = {
     Accept: "application/vnd.github+json",
@@ -39,6 +49,11 @@ function ghHeaders(extra = {}) {
   return headers;
 }
 
+/**
+ * Fetches the user's pinned repositories using the GitHub GraphQL API.
+ * Skips private repositories if encountered.
+ * @returns {Promise<Array<Object>>} A promise that resolves to an array of repo objects.
+ */
 async function fetchPinnedRepos() {
   if (!TOKEN) return [];
   const query = `
@@ -89,6 +104,12 @@ async function fetchPinnedRepos() {
   }
 }
 
+/**
+ * Fallback: Fetches the user's top repositories using the GitHub REST API.
+ * Filters out forks, archived repos, private repos, and the self-named profile repo.
+ * Sorted by stargazers and pushed_at dates.
+ * @returns {Promise<Array<Object>>} A promise that resolves to an array of repo objects.
+ */
 async function fetchTopRepos() {
   let repos = [];
   let page = 1;
@@ -133,6 +154,12 @@ async function fetchTopRepos() {
     }));
 }
 
+/**
+ * Renders an HTML table card for a single repository.
+ * @param {Object} repo - The repository object containing details like name, description, etc.
+ * @param {number} index - The index of the repository in the list (used for color selection).
+ * @returns {string} The HTML string representing the repo card.
+ */
 function renderCard(repo, index) {
   const color = PALETTE[index % PALETTE.length];
   const stack = [repo.language, ...repo.topics].filter(Boolean);
@@ -169,6 +196,11 @@ function renderCard(repo, index) {
 </table>`;
 }
 
+/**
+ * Main execution function.
+ * Fetches repositories, formats them into HTML cards, and updates the README.md file.
+ * @returns {Promise<void>}
+ */
 async function main() {
   let repos = await fetchPinnedRepos();
   let source = "pinned repositories";
