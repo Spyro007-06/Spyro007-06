@@ -339,7 +339,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>05. PROJECT TIMELINE</code></h3>
 </div>
 
-```
+```text
 2026 [ ACTIVE CYCLE ]
   │
   ├── ◈ 🌱 BHOOMI                    :: Voice-First Crop Diagnostics & Decision Gate (SIH26131)
@@ -365,7 +365,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>06. ARCHITECTURE PIPELINE</code></h3>
 </div>
 
-```
+```text
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │  01. INGESTION  │ ──► │  02. RETRIEVAL  │ ──► │  03. GUARDRAIL  │ ──► │  04. SYNTHESIS  │ ──► │  05. CLIENT RUN │
 ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤
@@ -434,7 +434,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>09. CURRENTLY EXPLORING</code></h3>
 </div>
 
-```
+```text
 ┌─[ TELEMETRY: ACTIVE EXPLORATION VECTORS ]─────────────────────────────────┐
 │                                                                           │
 │ 🤖 AGENTIC MULTI-STEP WORKFLOWS & TOOL CALLING   [██████████████████░░] 90% │
@@ -458,10 +458,10 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 
 > **01. Zero Tolerance for Hallucination.**  
 > *A missing answer is infinitely superior to a confident, destructive falsehood. Define operational boundaries, enforce confidence gates, and escalate to humans gracefully.*
-
+>
 > **02. Hybrid Over Hype.**  
 > *Pure vector search fails on product codes, vernacular phrases, and exact IDs. True production retrieval requires fusing dense semantic vectors with lexical BM25 and neural cross-encoders.*
-
+>
 > **03. Accessibility as a First Principle.**  
 > *Real-world AI cannot remain confined to English desktop users. Multilingual voice interfaces unlock advanced intelligence for non-English speaking operators.*
 
