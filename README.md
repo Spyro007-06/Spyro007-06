@@ -339,7 +339,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>05. PROJECT TIMELINE</code></h3>
 </div>
 
-```
+```text
 2026 [ ACTIVE CYCLE ]
   │
   ├── ◈ 🌱 BHOOMI                    :: Voice-First Crop Diagnostics & Decision Gate (SIH26131)
@@ -365,7 +365,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>06. ARCHITECTURE PIPELINE</code></h3>
 </div>
 
-```
+```text
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │  01. INGESTION  │ ──► │  02. RETRIEVAL  │ ──► │  03. GUARDRAIL  │ ──► │  04. SYNTHESIS  │ ──► │  05. CLIENT RUN │
 ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤     ├─────────────────┤
@@ -434,7 +434,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
   <h3><code>09. CURRENTLY EXPLORING</code></h3>
 </div>
 
-```
+```text
 ┌─[ TELEMETRY: ACTIVE EXPLORATION VECTORS ]─────────────────────────────────┐
 │                                                                           │
 │ 🤖 AGENTIC MULTI-STEP WORKFLOWS & TOOL CALLING   [██████████████████░░] 90% │
