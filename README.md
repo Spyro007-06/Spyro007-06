@@ -17,9 +17,9 @@
 
 <!-- Live Status & Uplink Badges -->
 <p align="center">
-  <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE_%E2%80%A2_SHIPPING-161B22?style=flat-square&logo=satellite&logoColor=00F2FE&labelColor=050811" alt="System Status" />
+  <img src="https://img.shields.io/badge/SYSTEM_STATUS-ONLINE_%E2%80%A2_SHIPPING-161B22?style=flat-square&logo=satellite&logoColor=00F2FE&labelColor=050811" alt="System Status: Online and Shipping" />
   &nbsp;
-  <img src="https://img.shields.io/badge/CORE_FOCUS-VOICE_AI_%7C_GROUNDED_RAG_%7C_FULL_STACK-161B22?style=flat-square&logo=codefactor&logoColor=B388FF&labelColor=050811" alt="Core Focus" />
+  <img src="https://img.shields.io/badge/CORE_FOCUS-VOICE_AI_%7C_GROUNDED_RAG_%7C_FULL_STACK-161B22?style=flat-square&logo=codefactor&logoColor=B388FF&labelColor=050811" alt="Core Focus: Voice AI, Grounded RAG, Full Stack" />
 </p>
 
 <p align="center">
@@ -104,7 +104,7 @@ Tharun B L — AI & Full-Stack Systems Architect (@Spyro007-06)
 <div align="center">
   <!-- Interactive Unified Skill Wall -->
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,dart,ts,js,postgres,fastapi,nodejs,express,prisma,flutter,react,nextjs,tailwind,docker,git,githubactions,linux&theme=dark" alt="Skill Wall" />
+    <img src="https://skillicons.dev/icons?i=python,dart,ts,js,postgres,fastapi,nodejs,express,prisma,flutter,react,nextjs,tailwind,docker,git,githubactions,linux&theme=dark" alt="Technical Skills: Python, Dart, TypeScript, JavaScript, PostgreSQL, FastAPI, Node.js, Express, Prisma, Flutter, React, Next.js, Tailwind, Docker, Git, GitHub Actions, Linux" />
   </a>
 </div>
 
